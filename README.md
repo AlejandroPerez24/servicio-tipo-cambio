@@ -74,7 +74,7 @@ Ejemplo de solicitud:
 POST /api/tipocambio/actualizar
 Body (x-www-form-urlencoded):
 monedaOrigen=USD
-monedaDestino=EUR
+monedaDestino=PEN
 tipoCambio=0.93
 
 Ejemplo de respuesta:
@@ -83,7 +83,7 @@ Ejemplo de respuesta:
 {
     "id": 1,
     "monedaOrigen": "USD",
-    "monedaDestino": "EUR",
+    "monedaDestino": "PEN",
     "tipoCambio": 0.93
 }
 
